@@ -16,7 +16,22 @@ namespace binary_operators
 			Console.WriteLine ("x+y = {0}", result);
 
 			result = x - y;
-			Console.WriteLine ("x+y = {0}", result);
+			Console.WriteLine ("x-y = {0}", result);
+
+			result = x*y;
+			Console.WriteLine("x*y: {0}", result);
+
+			result = x/y;
+			Console.WriteLine("x/y: {0}", result);
+
+			floatresult = (float)x/(float)y;
+			Console.WriteLine("x/y: {0}", floatresult);
+
+			result = x%y;
+			Console.WriteLine("x%y: {0}", result);
+
+			result += x;
+			Console.WriteLine("result+=x: {0}", result);
 
 		}
 	}
